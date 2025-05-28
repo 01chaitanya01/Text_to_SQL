@@ -1,0 +1,13 @@
+Test Case ID,Input Query,Detected Entity,Entity Label
+TC01,List all students,List,SELECT
+TC01,List all students,students,TABLE
+TC02,Show department names,Show,SELECT
+TC02,Show department names,department,TABLE
+TC03,Get instructor's first name and last name,Get,SELECT
+TC03,Get instructor's first name and last name,instructor,TABLE
+TC04,List courses with credits more than 3,List,SELECT
+TC04,List courses with credits more than 3,courses,TABLE
+TC04,List courses with credits more than 3,credits,COLUMN
+TC04,List courses with credits more than 3,3,COLUMN
+TC05,Show number of students per department,Show,SELECT
+TC05,Show number of students per department,students,TABLE

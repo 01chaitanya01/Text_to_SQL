@@ -1,0 +1,6 @@
+Test Case ID,Input Query,Generated SQL Query,Execution Time (s),Status
+TC01,List all students,SELECT * FROM students;,0.0206,Success
+TC02,Show department_name,SELECT department_name FROM departments;,0.0216,Success
+TC03,Get instructor's first_name and last_name,"SELECT first_name, last_name FROM instructors;",0.021,Success
+TC04,list all courses,SELECT * FROM courses;,0.0206,Success
+TC05,Show all departments,SELECT * FROM departments;,0.0189,Success
